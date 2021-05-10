@@ -1,0 +1,338 @@
+.back{
+    padding: 0%;
+}
+.head{
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.social{
+
+      text-align: center;
+      margin-top: 50px;
+
+}
+.fa {
+    padding: 20px;
+    font-size: 140px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 1px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .ii{
+      margin-top: 50px;
+  }
+  .uu{
+      margin-top: 50px;
+  }
+  .qq{
+      margin-top: 50px;
+  }
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: black;
+  }
+.zz{
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 20px;
+} 
+.ll{
+    background-color:#007bff;
+    margin-top: 50px;
+    
+} 
+.ww {
+    text-align: right;
+}
+.banner{
+  position: relative;
+  background: url(pexels-fritz-hoste-89485.jpg);
+  min-height:100vh;
+  background-size: cover;
+  background-position:center;
+  padding: 250px 0 200px;
+}
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.rr{
+  font-size: x-large;
+  
+
+}
+.rr:hover{
+  width: 100px;
+  transform: translateY(120px);
+  transition-property: initial;
+  transition-duration: 4s;
+  transition-delay: 0s;
+  transition-timing-function: ease-in-out;
+
+  
+}
+.tt{
+  font-weight: bolder;
+  
+}
+
+.nab{
+  padding-left: 2%;
+}
+
+
+
+.qw{
+    animation-name: jump;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 5;
+    animation-timing-function: ease-out;
+    animation-duration: 1.5s;
+    animation-name: pop;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 5;
+    animation-timing-function: ease-out;
+    animation-duration: 1.5s;
+}
+@keyframes jump{
+  from{
+    transform: translateY(-40x);
+  }
+  to{
+    transform: translateY(20px);
+  }
+}
+@keyframes pop{
+  from{
+    transform: translateY(20px);
+  }
+  to{
+    transform: translateY(-40px);
+  }
+}
+.yer{
+  animation-name: move;
+  animation-duration: 2s;
+  animation-delay: 0s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+  @keyframes move{
+    from{ 
+      width: 0%;
+      
+    }
+    to{
+      width: 90%;
+    }
+  }
+.leo{
+  animation-name: let;
+  animation-duration: 2s;
+  animation-delay: 0s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+  @keyframes let{
+    from{
+      width: 0%;
+    }
+    to{
+      width: 80%;
+    }
+  }
+
+
+.har{
+  animation-name: sow;
+  animation-duration: 2s;
+  animation-delay: 0s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+
+}
+  @keyframes sow{
+    from{
+      width: 0%;
+    }
+    to{
+      width: 60%;
+    }
+  }
+
+
+.yug{
+  animation-name: guy;
+  animation-duration: 2s;
+  animation-delay: 0s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+  @keyframes guy{
+    from{
+      width: 0%;
+    }
+    to{
+      width: 85%;
+    }
+  }
+
+
+.op{
+  animation-name: po;
+  animation-duration: 2s;
+  animation-delay: 0s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+  @keyframes po{
+    from{
+      width: 0%;
+    }
+    to{
+      width: 75%;
+    }
+  }
+  
+
+.you{
+
+  animation-name: uoy;
+  animation-duration: 2s;
+  animation-delay: 0s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+  @keyframes uoy{
+    from{
+      width: 0%;
+    }
+    to{
+      width: 80%;
+    }
+  }
+
+.uyr{
+  animation-name: io;
+  animation-duration: 2s;
+  animation-delay: 0s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+  @keyframes io{
+    from{
+      width: 0%;
+    }
+    to{
+      width: 80%;
+    }
+  }
+
+.bc{
+  animation-name: cb;
+  animation-duration: 2s;
+  animation-delay: 0s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+  @keyframes cb{
+    from{
+      width: 0%;
+    }
+    to{
+      width: 70%;
+    }
+  }
+.man{
+background-color: #007bff;
+}
+
+.man:hover{
+  background-color: rgb(255, 255, 255);
+}
+.tit:hover{
+    font-size: x-large;
+}
+.dog{
+  position: absolute;
+  left: 500px;
+  right: 70px;
+  width: 500px;
+  height: 1300px;
+  bottom: 1000px;
+  top: 1px;
+  padding-bottom: 1000px;
+  padding-right: 300px;
+  margin-right: 150px;
+}
+.dog:hover{
+  motion: inherit;
+  
+}
